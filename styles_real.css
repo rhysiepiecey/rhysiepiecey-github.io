@@ -1,0 +1,142 @@
+#Name {
+    font-size: 100px;
+  }
+
+  #qualifications {
+    background-color: rgba(67, 67, 67, 0.199);
+  }
+
+  #projects {
+    background-color: rgba(13, 74, 160, 0.605);
+  }
+
+  a:hover {
+    color: rgba(67, 67, 67, 0.199);
+  }
+
+  .flex {
+    display: flex;
+    text-align: center;
+  }
+
+  .parallax {
+    background-image: url("cp1-html-css-rshah04/IMG_0935.JPG");
+    min-height: 800px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  * {
+    margin: 0px;
+    padding: 0;
+    font-family: "poppins", sans-serif;
+    box-sizing: border-box;
+    font-weight: bold;
+  }
+
+  body {
+    flex-direction: column;
+    height: 100vh;
+    text-align: center;
+  }
+
+  .slides {
+    flex: 1 1 auto;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    scrollbar-color: #aaa #222;
+    scrollbar-width: thin;
+  }
+
+  h2 {
+    margin: 30px;
+  }
+
+  .hero-text {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: black;
+    opacity: 100%;
+    max-height: 100%;
+    overflow-y: auto;
+  }
+
+  .hero-bg {
+    background: rgba(0, 0, 0, 0.7);
+    padding: 30px;
+    border-radius: 8px;
+  }
+
+  .grayscale {
+    filter: grayscale(100%);
+  }
+
+  nav {
+    align-items: center;
+    justify-content: space-between;
+    background-color: #0F4595;
+    z-index: 10;
+    flex: 0 0 auto;
+  }
+
+  .title {
+    margin: auto;
+    color: white;
+    font-size: 24px;
+    margin-left: 20px;
+  }
+
+  .nav-links {
+    padding: 28px 0;
+  }
+
+  .nav-links li {
+    display: inline-block;
+    margin: 0 15px;
+  }
+
+  .nav-links li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 0;
+    position: relative;
+  }
+
+  .nav-links li a::after {
+    content: '';
+    background: #ff3d00;
+    width: 0%;
+    height: 2px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    transition: width 0.5s;
+  }
+
+  .nav-links li a:hover::after {
+    width: 100%;
+  }
+
+  .link {
+    text-decoration: none;
+    color: #aaf;
+  }
+
+  .link::after {
+    content: '';
+    background: #aaf;
+    width: 0%;
+    height: 2px;
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    transition: width 0.5s;
+  }
+
+  .link:hover::after {
+    width: 100%;
+  }
